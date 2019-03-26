@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "server":  "node server.js"
+    "server": "node server.js"
   },
   "private": true,
   "dependencies": {
@@ -20,9 +20,16 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-brands": "^5.0.13",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "bootstrap": "^4.3.1",
     "core-js": "^2.5.4",
+    "font-awesome": "^4.7.0",
     "koa": "^2.7.0",
     "koa-static": "^5.0.0",
+    "ng-bootstrap-form-validation": "^3.0.3",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",

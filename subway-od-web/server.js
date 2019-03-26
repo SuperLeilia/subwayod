@@ -12,5 +12,5 @@ app.use(server(
 ));
 
 app.listen(3000, function () {
-  console.log('[demo] static-use-middleware is starting at port 3000')
+  console.log('[subway-od-server] static-use-middleware is starting at port 3000')
 });

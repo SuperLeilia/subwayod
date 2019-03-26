@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="search-bar pl-lg-2">
+    <div class="search-border">
+      <div class="search-content pt-lg-3 mr-lg-1 pb-lg-2">
+        <h6 class="font-weight-normal">ID查询</h6>
+        <form [formGroup]="idFormGroup" (validSubmit)="onIDSubmit()">
+          <div class="row">
+            <div class="form-group col-lg-9" [customErrorMessages]="customErrorMessages">
+              <label class="control-label font-weight-bold" [hidden]="true">交通卡ID</label>
+              <input type="text" class="form-control" placeholder="请输入交通卡ID" formControlName="ID" [(ngModel)]="inputID">
+            </div>
+            <div class="col-lg-3">
+              <button class="btn btn-primary" (click)="onIDSubmit()">提交</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
